@@ -1,0 +1,1 @@
+ps aux | grep -i notable | grep opt | grep -v grep | awk '{print $2}' | wc -l
